@@ -14,7 +14,7 @@ module.exports = {
 		feat: ':new:',
 		refactor: ':wrench:',
 	},
-	// path to the git directory
+	// path to the git directory (relative to the config file)
 	// gitPaths: ['../project1', '../project2'],
 	gitPaths: [],
 
