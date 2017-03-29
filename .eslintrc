@@ -1,0 +1,27 @@
+{
+	"rules": {
+		"indent": [2, "tab"], // indent with 2 spaces
+		"no-tabs": ['off'],
+		"quotes": [2, "single"], // always use single quotes
+		"linebreak-style": [2, "unix"], // fuck windows
+		"semi": [2, "always"], // always use semicolons at end of command
+		"no-multiple-empty-lines": [2, {"max": 2}], // only allow one free line
+		"eqeqeq": [2, "smart"], // always use === only if null or something not ... I forgot
+		"strict": [2, "function"],
+		"no-var": [2],
+		"curly": [2, "multi-line"], // no one line if without curly braces
+		"global-require": ['off'],
+		"import/newline-after-import": ['off'],
+		"no-param-reassign": ['off'],
+		"no-underscore-dangle": ["off"],
+		"no-use-before-define": ["off"],
+		// "comma-dangle": ["error", {functions: "never"}],
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+	  "jasmine": true,
+	},
+	"extends": "airbnb",
+	"parser": "babel-eslint" // we need to use this since ESLint does not support ES6 Decorators
+}
